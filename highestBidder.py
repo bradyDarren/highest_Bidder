@@ -12,10 +12,8 @@ def bid():
         more_bids = input("Are there any more bidders? Type 'yes or no'. ").lower()
     
     for key in bidders:
-        max_bid = max(bidders[key])
-    print(max_bid)
-        
-
+        print(bidders[key])
+                
 
 
 bid()
